@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nacho\\Proyectos\\Unity Projects\\Runner2D-Unity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11E735F6-231C-8FD5-C40A-3929A9189E56}|Assembly-CSharp.csproj|c:\\users\\nacho\\proyectos\\unity projects\\runner2d-unity\\assets\\scripts\\mainmenuscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11E735F6-231C-8FD5-C40A-3929A9189E56}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenuscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11E735F6-231C-8FD5-C40A-3929A9189E56}|Assembly-CSharp.csproj|C:\\Users\\Nacho\\Proyectos\\Unity Projects\\Runner2D-Unity\\assets\\scripts\\uiplayermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11E735F6-231C-8FD5-C40A-3929A9189E56}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiplayermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainMenuScreen.cs",
+              "DocumentMoniker": "C:\\Users\\Nacho\\Proyectos\\Unity Projects\\Runner2D-Unity\\Assets\\Scripts\\MainMenuScreen.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuScreen.cs",
+              "ToolTip": "C:\\Users\\Nacho\\Proyectos\\Unity Projects\\Runner2D-Unity\\Assets\\Scripts\\MainMenuScreen.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenuScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T01:32:59.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UIPlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Nacho\\Proyectos\\Unity Projects\\Runner2D-Unity\\Assets\\Scripts\\UIPlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIPlayerMovement.cs",
+              "ToolTip": "C:\\Users\\Nacho\\Proyectos\\Unity Projects\\Runner2D-Unity\\Assets\\Scripts\\UIPlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIPlayerMovement.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA7wB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T01:11:45.013Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

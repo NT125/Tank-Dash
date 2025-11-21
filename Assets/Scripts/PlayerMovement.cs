@@ -1,18 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
-using UnityEditor.Callbacks;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float jumpForce = 21f;
-    [SerializeField] private float movementSpeed = 3f;
-    private Rigidbody2D playerRB;
-    private bool isOnGround;
-    public AudioSource[] playerAS; // Para obtener un array que contenga los AudioSources del objeto
+    [SerializeField] public float jumpForce = 21f;
+    [SerializeField] public float movementSpeed = 3f;
 
-    // Game Loop
+    public Rigidbody2D playerRB;
+    public bool isOnGround;
+    public AudioSource[] playerAS;
+
+    // Este axis viene desde UI (si no hay input móvil, queda en 0)
+    [HideInInspector] public float uiAxis = 0f;
+    [HideInInspector] public bool uiJumpPressed = false;
+
     void Start()
     {
         playerAS = GetComponents<AudioSource>();
@@ -25,41 +28,54 @@ public class PlayerMovement : MonoBehaviour
         Jump();
     }
 
+    private void Move()
+    {
+        // PC
+        float horizontal = Input.GetAxisRaw("Horizontal");
+
+        // Si móvil manda input, tiene prioridad
+        if (uiAxis != 0)
+            horizontal = uiAxis;
+
+        if (horizontal > 0)
+            playerRB.transform.Translate(Vector2.right * movementSpeed * Time.deltaTime);
+
+        else if (horizontal < 0)
+            playerRB.transform.Translate(Vector2.left * movementSpeed * Time.deltaTime);
+    }
+
     private void Jump()
     {
-        if (Input.GetButtonDown("Jump") && isOnGround)
+        // PC
+        bool wantJump = Input.GetButtonDown("Jump");
+
+        // Mobile
+        if (uiJumpPressed)
         {
-            playerRB.velocity = new Vector2(playerRB.velocity.x, jumpForce);
+            wantJump = true;
+            uiJumpPressed = false; // se consume una vez
+        }
+
+        if (wantJump && isOnGround)
+        {
+            playerRB.linearVelocity = new Vector2(playerRB.linearVelocity.x, jumpForce);
             playerAS[0].Play();
             isOnGround = false;
         }
     }
 
-    private void Move()
-    {
-        if (Input.GetAxisRaw("Horizontal") > 0)
-        {
-            playerRB.transform.Translate(Vector2.right * movementSpeed * Time.deltaTime);
-        }
-        else if (Input.GetAxisRaw("Horizontal") < 0)
-        {
-            playerRB.transform.Translate(Vector2.left * movementSpeed * Time.deltaTime);
-        }
-    }
-
     private void OnCollisionEnter2D(Collision2D col)
     {
-        // Chequeando colisión con objetos dañinos
         if (col.gameObject.CompareTag("Enemy") || col.gameObject.CompareTag("Spike"))
         {
-            playerRB.velocity = new Vector2(playerRB.velocity.x, 11f);
+            playerRB.linearVelocity = new Vector2(playerRB.linearVelocity.x, 11f);
             playerAS[1].Play();
         }
 
-        // Chequeando colisión con el suelo
         if (col.gameObject.CompareTag("Map"))
         {
             isOnGround = true;
         }
     }
 }
+
