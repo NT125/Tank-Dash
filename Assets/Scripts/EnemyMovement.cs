@@ -4,32 +4,42 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
+    public float movementSpeed = 7f;
+    public float maxDistanceFromPlayer = 25f;
 
-    [SerializeField] public float movementSpeed = 7f;
-    [SerializeField] private Rigidbody2D enemyRB;
+    private Rigidbody2D rb;
+    private Transform player;
 
-    void Start()
+    void Awake()
     {
-        enemyRB = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    // Update is called once per frame
     void Update()
     {
         Move();
-        Delete();
+        CheckDistance();
     }
 
     private void Move()
     {
-        enemyRB.transform.Translate(Vector2.left * movementSpeed * Time.deltaTime);
+        transform.position += Vector3.left * movementSpeed * Time.deltaTime;
     }
 
-    private void Delete()
+    private void CheckDistance()
     {
-        if (enemyRB.transform.position.x <= -11f)
+        if (player == null)
         {
-            Destroy(gameObject);
+            GameObject p = GameObject.FindGameObjectWithTag("Player");
+            if (p != null) player = p.transform;
+
+            return;
+        }
+
+        if (Vector2.Distance(transform.position, player.position) > maxDistanceFromPlayer)
+        {
+            gameObject.SetActive(false);
         }
     }
 }
