@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetButtonDown("Jump") && isOnGround)
         {
-            playerRB.velocity = new Vector2(playerRB.velocity.x, jumpForce);
+            playerRB.linearVelocity = new Vector2(playerRB.linearVelocity.x, jumpForce);
             playerAS[0].Play();
             isOnGround = false;
         }
@@ -52,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
         // Chequeando colisión con objetos dañinos
         if (col.gameObject.CompareTag("Enemy") || col.gameObject.CompareTag("Spike"))
         {
-            playerRB.velocity = new Vector2(playerRB.velocity.x, 11f);
+            playerRB.linearVelocity = new Vector2(playerRB.linearVelocity.x, 11f);
             playerAS[1].Play();
         }
 
