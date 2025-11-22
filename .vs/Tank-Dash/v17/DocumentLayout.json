@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{AE72EE9C-C73C-04CA-16BC-9E2B27EF2BFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectpooling\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE72EE9C-C73C-04CA-16BC-9E2B27EF2BFF}|Assembly-CSharp.csproj|c:\\users\\cristian\\desktop\\reponachito(cambios para platafomra)\\tank-dash\\assets\\scripts\\spikeenemytrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE72EE9C-C73C-04CA-16BC-9E2B27EF2BFF}|Assembly-CSharp.csproj|C:\\Users\\CRISTIAN\\Desktop\\RepoNachito(cambios para platafomra)\\Tank-Dash\\assets\\scripts\\spikeenemytrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE72EE9C-C73C-04CA-16BC-9E2B27EF2BFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spikeenemytrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE72EE9C-C73C-04CA-16BC-9E2B27EF2BFF}|Assembly-CSharp.csproj|c:\\users\\cristian\\desktop\\reponachito(cambios para platafomra)\\tank-dash\\assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE72EE9C-C73C-04CA-16BC-9E2B27EF2BFF}|Assembly-CSharp.csproj|C:\\Users\\CRISTIAN\\Desktop\\RepoNachito(cambios para platafomra)\\Tank-Dash\\assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE72EE9C-C73C-04CA-16BC-9E2B27EF2BFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE72EE9C-C73C-04CA-16BC-9E2B27EF2BFF}|Assembly-CSharp.csproj|c:\\users\\cristian\\desktop\\reponachito(cambios para platafomra)\\tank-dash\\assets\\scripts\\enemytrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE72EE9C-C73C-04CA-16BC-9E2B27EF2BFF}|Assembly-CSharp.csproj|C:\\Users\\CRISTIAN\\Desktop\\RepoNachito(cambios para platafomra)\\Tank-Dash\\assets\\scripts\\enemytrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE72EE9C-C73C-04CA-16BC-9E2B27EF2BFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemytrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,8 +38,7 @@
               "RelativeToolTip": "Assets\\Scripts\\SpikeEnemyTrigger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T07:40:30.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T07:40:30.006Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "Assets\\Scripts\\EnemyMovement.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAiwCQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T06:50:30.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T06:50:30.775Z"
             },
             {
               "$type": "Document",
@@ -64,8 +62,7 @@
               "RelativeToolTip": "Assets\\Scripts\\EnemyTrigger.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T06:45:27.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T06:45:27.836Z"
             },
             {
               "$type": "Document",
@@ -75,7 +72,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectPooling\\ObjectPool.cs",
               "ToolTip": "C:\\Users\\CRISTIAN\\Desktop\\RepoNachito(cambios para platafomra)\\Tank-Dash\\Assets\\Scripts\\ObjectPooling\\ObjectPool.cs",
               "RelativeToolTip": "Assets\\Scripts\\ObjectPooling\\ObjectPool.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-22T06:35:36.904Z",
               "EditorCaption": ""
