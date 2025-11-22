@@ -24,7 +24,7 @@ public class PlayerAnimationsManager : MonoBehaviour
     // Función que verifica si el jugador salta según la velocidad en Y de su RigidBody2D
     private void checkJump()
     {
-        if (playerRB.velocity.y > 0f)
+        if (playerRB.linearVelocity.y > 0f)
         {
             playerAnimator.SetBool("isJumping", true);
         }
@@ -37,7 +37,7 @@ public class PlayerAnimationsManager : MonoBehaviour
     // Función que verifica si el jugador cae según la velocidad en Y de su RigidBody2D
     private void checkFall()
     {
-        if (playerRB.velocity.y < 0f)
+        if (playerRB.linearVelocity.y < 0f)
         {
             playerAnimator.SetBool("isFalling", true);
         }

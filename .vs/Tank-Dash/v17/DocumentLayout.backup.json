@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CRISTIAN\\Desktop\\RepoNachito(cambios para platafomra)\\Tank-Dash\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE72EE9C-C73C-04CA-16BC-9E2B27EF2BFF}|Assembly-CSharp.csproj|c:\\users\\cristian\\desktop\\reponachito(cambios para platafomra)\\tank-dash\\assets\\scripts\\occlusionculling\\enhancedocclusionculling2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE72EE9C-C73C-04CA-16BC-9E2B27EF2BFF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\occlusionculling\\enhancedocclusionculling2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnhancedOcclusionCulling2D.cs",
+              "DocumentMoniker": "C:\\Users\\CRISTIAN\\Desktop\\RepoNachito(cambios para platafomra)\\Tank-Dash\\Assets\\Scripts\\OcclusionCulling\\EnhancedOcclusionCulling2D.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\OcclusionCulling\\EnhancedOcclusionCulling2D.cs",
+              "ToolTip": "C:\\Users\\CRISTIAN\\Desktop\\RepoNachito(cambios para platafomra)\\Tank-Dash\\Assets\\Scripts\\OcclusionCulling\\EnhancedOcclusionCulling2D.cs",
+              "RelativeToolTip": "Assets\\Scripts\\OcclusionCulling\\EnhancedOcclusionCulling2D.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T03:41:49.112Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
