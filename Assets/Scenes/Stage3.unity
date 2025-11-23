@@ -22726,6 +22726,58 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5916639472768763376, guid: deaa3053086ee7d45bfdefce61457308, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1565083935}
+    - target: {fileID: 5916639472768763376, guid: deaa3053086ee7d45bfdefce61457308, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1565083935}
+    - target: {fileID: 5916639472768763376, guid: deaa3053086ee7d45bfdefce61457308, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnMoveRightButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916639472768763376, guid: deaa3053086ee7d45bfdefce61457308, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnMoveRightButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 7423919317077288521, guid: deaa3053086ee7d45bfdefce61457308, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1565083935}
+    - target: {fileID: 7423919317077288521, guid: deaa3053086ee7d45bfdefce61457308, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1565083935}
+    - target: {fileID: 7423919317077288521, guid: deaa3053086ee7d45bfdefce61457308, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnMoveLeftButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 7423919317077288521, guid: deaa3053086ee7d45bfdefce61457308, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnMoveLeftButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 8922318651916580594, guid: deaa3053086ee7d45bfdefce61457308, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1565083935}
+    - target: {fileID: 8922318651916580594, guid: deaa3053086ee7d45bfdefce61457308, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnJumpButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 9212849355134021598, guid: deaa3053086ee7d45bfdefce61457308, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9212849355134021598, guid: deaa3053086ee7d45bfdefce61457308, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9212849355134021598, guid: deaa3053086ee7d45bfdefce61457308, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29377,6 +29429,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4af7feb744226c499681070e7b6adc1, type: 3}
+--- !u!114 &1565083935 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4587966773156831557, guid: a4af7feb744226c499681070e7b6adc1, type: 3}
+  m_PrefabInstance: {fileID: 1565083934}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e38824a3f2d7c7458b675fcdb989619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1575305763 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2682424917841576036, guid: 068517a8434306c4a98af073cd5d2499, type: 3}
