@@ -1,0 +1,1 @@
+C:\Users\CRISTIAN\Desktop\RepoNachito(cambios para platafomra)\Tank-Dash\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\205t716r\obj\armeabi-v7a
